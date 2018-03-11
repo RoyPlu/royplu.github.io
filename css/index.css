@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(100, 100, 100);
+}
+
+.blurImage {
+    -webkit-filter: blur(2px); /* Safari */
+    filter: blur(2px);
+}
+
+.carousel-caption h1 {
+    font-size: 100px;
+}
+
+.carousel-caption img {
+    width: 200px;
+}
+
+.purpleGradient li {
+    background: #FC5C7D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
