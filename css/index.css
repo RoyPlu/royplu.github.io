@@ -93,6 +93,7 @@ body {
 
 .projectImage {
     width: 200px;
+    height: 200px;
     clear: both;
 }
 
@@ -135,4 +136,8 @@ h3 svg {
 
 .purpleGradient {
     background-image:  linear-gradient(262deg, rgb(127, 0, 201), rgb(255, 120, 84));
+}
+
+.blueGradient {
+    background-image:  linear-gradient(262deg, rgb(36,59,85), rgb(127, 0, 201));
 }
