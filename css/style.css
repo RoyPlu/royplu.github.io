@@ -89,11 +89,11 @@ button.primary_btn {
   margin-top: 50px;
 }
 .section_gap {
-  padding: 140px 0;
+  padding-bottom: 140px;
 }
 @media (max-width: 1199px) {
   .section_gap {
-    padding: 80px 0;
+    padding-bottom: 80px;
   }
 }
 .section_gap_top {
@@ -414,6 +414,10 @@ button.primary_btn {
   .home_banner_area {
     background: #ffffff;
   }
+
+  .home_right_img {
+    padding-top: 0px !important;
+  }
 }
 .home_banner_area .banner_inner {
   width: 100%;
@@ -429,7 +433,6 @@ button.primary_btn {
 }
 @media (max-width: 991px) {
   .home_banner_area .banner_inner .home_right_img {
-    display: none;
   }
 }
 .home_banner_area .banner_content {
@@ -3283,7 +3286,6 @@ h6 {
     margin-top: 0;
   }
   .home_right_img {
-    display: none;
   }
   .footer_area {
     padding-top: 80px !important;
